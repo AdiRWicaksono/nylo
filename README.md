@@ -58,6 +58,13 @@ If you discover any security related issues, please email support@nylo.dev inste
 * [joshua1996](https://github.com/joshua1996)
 * [stensonb](https://github.com/stensonb)
 * [ruwiss](https://github.com/ruwiss)
+* [rytisder](https://github.com/rytisder)
+* [necro304](https://github.com/necro304)
+* [israelins85](https://github.com/israelins85)
+
+## Contributing
+
+Please see <a href="https://nylo.dev/docs/6.x/contributions" target="_BLANK">CONTRIBUTING</a> for details.
 
 ## Licence
 

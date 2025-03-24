@@ -12,14 +12,18 @@ import 'package:nylo_framework/nylo_framework.dart';
 | Run the below in the terminal to add authentication to your project.
 | "dart run scaffold_ui:main auth"
 |
+| * [Tip] Add In-app Purchases 💳
+| Run the below in the terminal to add In-app Purchases to your project.
+| "dart run scaffold_ui:main iap"
+|
 | Learn more https://nylo.dev/docs/6.x/router
 |-------------------------------------------------------------------------- */
 
 appRouter() => nyRoutes((router) {
       router.add(HomePage.path).initialRoute();
-      // Add your routes here ...
 
-      // router.add(NewPage.path, transition: PageTransitionType.fade);
+      // Add your routes here ...
+      // router.add(NewPage.path, transitionType: TransitionType.fade());
 
       // Example using grouped routes
       // router.group(() => {
@@ -29,4 +33,4 @@ appRouter() => nyRoutes((router) {
       //
       // });
       router.add(NotFoundPage.path).unknownRoute();
-    });
+});
